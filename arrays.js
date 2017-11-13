@@ -16,13 +16,13 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 
 
 function addElementToEndOfArray(array, element){
-  var newArray();
+  var newArray = new Array();
   newArray = [...array, element];
   return newArray
 }
 
-/*function destructivelyAddElementToEndOfArray(array, element){
+function destructivelyAddElementToEndOfArray(array, element){
   array.push(element);
   return array
 
-}*/
+}
